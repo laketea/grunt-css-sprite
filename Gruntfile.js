@@ -31,7 +31,8 @@ module.exports = function(grunt) {
 				// 默认使用二叉树最优排列算法
 				algorithm: 'binary-tree',
 				// 默认使用`pixelsmith`图像处理引擎
-				engine: 'pixelsmith'
+				engine: 'pixelsmith',
+				defaultratio: 2
 			},
 			autoSprite: {
 				files: [{
